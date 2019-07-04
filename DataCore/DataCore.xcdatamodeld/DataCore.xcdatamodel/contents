@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cricketers" representedClassName="Cricketers" syncable="YES" codeGenerationType="class">
+        <attribute name="cricNam" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cricState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cricTeam" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Politicians" representedClassName="Politicians" syncable="YES" codeGenerationType="class">
+        <attribute name="poliNam" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="poliParty" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="poliState" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Cricketers" positionX="-18" positionY="54" width="128" height="90"/>
+        <element name="Politicians" positionX="-45" positionY="0" width="128" height="90"/>
+    </elements>
 </model>
